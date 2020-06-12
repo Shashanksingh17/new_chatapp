@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /
-rm -rf /new_chatapp/
+sudo rm -rf /new_chatapp/
