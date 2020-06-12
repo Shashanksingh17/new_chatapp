@@ -8,12 +8,12 @@ hooks:
   BeforeInstall:
     - location: scripts/remove.sh
       timeout: 500
-      runas: root
+      runas: ubuntu
   AfterInstall:
     - location: scripts/installationcommands.sh
       timeout: 500
-      runas: root
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/startproject.sh
       timeout: 500
-      runas: root
+      runas: ubuntu
