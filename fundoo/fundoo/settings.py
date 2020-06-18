@@ -22,7 +22,7 @@ ALLOWED_HOSTS = ['*']
 EMAIL_USE_TLS = True            # Email Tools true
 EMAIL_HOST = 'smtp.gmail.com'   # SMTP protocol for mail transfer
 EMAIL_HOST_USER = 'shashankshekhar2311@gmail.com'   # email to be send from user
-EMAIL_HOST_PASSWORD = 'Shashank@1705'                   # password
+EMAIL_HOST_PASSWORD = 'Shashank@8800'                   # password
 EMAIL_PORT = 587                                       # default email port
 DEFAULT_FROM_EMAIL = 'TestSite Team <noreply@example.com>'  # subject for email
 
