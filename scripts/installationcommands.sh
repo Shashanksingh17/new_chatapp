@@ -11,6 +11,7 @@ pip3 install django bcrypt django-extensions
 pip3 install gunicorn
 cd fundoo/
 python3 manage.py collectstatic --noinput
+/new_chatapp/venv/bin/python3 manage.py migrate
 sudo cp /new_chatapp/scripts/gunicorn.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl start gunicorn
