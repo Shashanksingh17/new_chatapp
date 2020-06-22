@@ -106,7 +106,8 @@ DATABASES = {
         'NAME': 'ChatAppDatabase',
         'USER': 'Postgres',
         'PASSWORD': 'Shekhar8051',
-        'HOST': 'terraform-20200621231938632600000001.c3s9ua8nvo0v.ap-south-1.rds.amazonaws.com',
+        'HOST': 'terraform-20200622054836043200000002.c3s9ua8nvo0v.ap-south-1.rds.amazonaws.com
+',
         'PORT': '5432',
     }
 }
