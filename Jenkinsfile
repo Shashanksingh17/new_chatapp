@@ -5,7 +5,7 @@ pipeline {
            steps {
              sh ''' #! /bin/bash 
              
-              aws deploy create-deployment --application-name TFChatApp --deployment-group-name TFCodeDeployGroup --deployment-config-name CodeDeployDefault.AllAtOnce --github-location repository=NikhilDusane222/ChatApp,commitId=${GIT_COMMIT}
+              aws deploy create-deployment --application-name ChatApp --deployment-group-name ChatAppDeploymentGroupCF --deployment-config-name CodeDeployDefault.AllAtOnce --github-location repository=Shashanksingh17/new_chatapp,commitId=${GIT_COMMIT}
              '''
                  }
                }
