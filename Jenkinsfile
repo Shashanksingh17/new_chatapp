@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+     stages {
+     stage('Deploy') { 
+           steps {
+             sh ''' #! /bin/bash 
+             
+              aws deploy create-deployment --application-name TFChatApp --deployment-group-name TFCodeDeployGroup --deployment-config-name CodeDeployDefault.AllAtOnce --github-location repository=NikhilDusane222/ChatApp,commitId=${GIT_COMMIT}
+             '''
+                 }
+               }
+             }
+           }
